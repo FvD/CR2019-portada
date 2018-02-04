@@ -1,0 +1,112 @@
+baseurl: "/"
+title: "ConectaR2019"
+canonifyurls: true
+
+GoogleAnalytics: "UA-xxxxx-1"
+
+params:
+  # Conference info
+  Name: "ConectaR2019"
+  Description: "Conference description"
+  Date: "23-25 de Enero, 2019"
+  #  Price: "Only $100" # If your event is free, just comment this line
+  Venue: "UCR"
+  Address: "Universidad de Costa Rica, Ciudad universitaria Rodrigo Facio Brenes"
+  City:  "San José"
+  State: "San José"
+  Images: ["/img/badge.jpg"]
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - location
+    - speakers
+    - schedule
+    - sponsors
+    - partners
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "Conectate!"
+    location: "Lugar"
+    speakers: "Ponentes"
+    schedule: "Agenda"
+    sponsors: "Patrocinan"
+    partners: "Organizan"
+    contact: "Contacto"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Inscribete!"
+    link: "http://eepurl.com/djC69r"
+
+  # List of Sponsors
+  Sponsors:
+    - name: "Su logo aqui"
+      logo: "/img/patrocinadores.png"
+      url: "mailto::info.ConectaR2019@gmail.com" 
+
+  # List of Partners
+  Partners:
+    - name: "Universidad de Costa Rica"
+      logo: "/img/ucr.jpeg"
+      url: "https://www.ucr.ac.cr"
+    - name: "ixpantia"
+      logo: "/img/ixpantia.png"
+      url: "https://ixpantia.org"
+    - name: "Bioversity International"
+      logo: "/img/bioversity-international.png"
+      url: "https://www.bioversityinternational.org"
+
+  # The entire schedule
+  Schedule:
+    - day: "23"
+      name: "registro"
+      time: "8h30"
+
+    - day: "23"
+      name: "Por Anunciar"
+      photo: "/img/speaker.jpg"
+      company: "Por Anunciar"
+      presentation: 
+        title: "Presentaciones"
+        description: "Pronto abrimos la convocatoria para recibir resumenes de sus propuestas para charlas y posters"
+
+    - day: "23"
+      name: "Cierre"
+      time: "18h00"
+
+    - day: "24"
+      name: "Abren Puertas"
+      time: "8h30"
+
+    - day: "24"
+      photo: "/img/speaker.jpg"
+      company: "Por Anunciar"
+      presentation: 
+        title: "Presentaciones y talleres"
+        description: "Pronto abrimos la convocatoria para recibir resumenes de sus propuestas para charlas y posters"
+
+    - day: "24"
+      name: "Cierre"
+      time: "18h00"
+
+    - day: "25"
+      name: "Abren puertas"
+      time: "8h30"
+
+    - day: "25"
+      photo: "/img/speaker.jpg"
+      company: "Por Anunciar"
+      presentation: 
+        title: "Presentaciones y talleres"
+        description: "Pronto abrimos la convocatoria para recibir resumenes de sus propuestas para charlas y posters"
+
+    - day: "25"
+      name: "Cierre"
+      time: "13h00"
+
+
