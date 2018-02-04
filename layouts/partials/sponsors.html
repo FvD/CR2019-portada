@@ -1,0 +1,13 @@
+<h2 class="section-title">{{ .titles.sponsors }}</h2>
+
+<p>Contacte la organización al correo: info.ConectaR2019@gmail.com para que le podamos informar de las oportunidades de patrocinar el evento</p>
+
+<ul class="sponsors-list">
+{{ range $sponsor := .sponsors }}
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="{{ .url }}" class="sponsor--link" itemprop="url" target="_blank">
+      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+    </a>
+  </li>
+{{ end }}
+</ul>
