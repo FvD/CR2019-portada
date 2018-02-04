@@ -1,9 +1,9 @@
-baseurl: "https://www.conectar2019.org/"
+baseurl: "/"
 title: "ConectaR2019"
 canonifyurls: true
 theme: "hugo-conference"
 
-GoogleAnalytics: "UA-xxxx-1"
+GoogleAnalytics: "UA-xxxxx-1"
 
 params:
   # Conference info
