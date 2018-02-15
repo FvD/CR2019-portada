@@ -13,7 +13,7 @@ params:
   Venue: "UCR"
   Address: "Universidad de Costa Rica, Ciudad universitaria Rodrigo Facio Brenes"
   City:  "San José"
-  State: "San José"
+  State: "Costa Rica"
   Images: ["/img/badge.jpg"]
 
   # Active sections on the website to deactivate comment out with '#'
