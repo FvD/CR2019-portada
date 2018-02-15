@@ -2,12 +2,12 @@ baseurl: "/"
 title: "ConectaR2019"
 canonifyurls: true
 
-GoogleAnalytics: "UA-xxxxx-1"
+GoogleAnalytics: "UA-113328696-1"
 
 params:
   # Conference info
   Name: "ConectaR2019"
-  Description: "Conference description"
+  Description: "Encuentro Internacional de Usuarios R en Latinoamérica: Conectando Industria, Enseñanza, Ciencia Ciudadana, Ciencia Abierta. 24-25-26 Enero 2019, San José, Costa Rica"
   Date: "23-25 de Enero, 2019"
   #  Price: "Only $100" # If your event is free, just comment this line
   Venue: "UCR"
@@ -40,7 +40,7 @@ params:
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    text: "Inscribete!"
+    text: "Inscribite!"
     link: "http://eepurl.com/djC69r"
 
   # List of Sponsors
@@ -60,6 +60,20 @@ params:
     - name: "Bioversity International"
       logo: "/img/bioversity-international.png"
       url: "https://www.bioversityinternational.org"
+
+  Support:
+    - name: "R-Foundation"
+      logo: "/img/Rlogo.png"
+      url: "https://www.r-project.org/foundation/"
+    - name: "Escuela de Estadística"
+      logo: "/img/EES-escuela-estadistica-horizontal.png"
+      url: "https://http://www.estadistica.ucr.ac.cr"
+    - name: "Observatorio de Desarrollo"
+      logo: "/img/logo_odd.png"
+      url: "http://www.odd.ucr.ac.cr"
+    - name: "Centro de Investigación y Matemática Pura y Aplicada"
+      logo: "/img/cimpa_logo.png"
+      url: "http://www.cimpa.ucr.ac.cr"
 
   # The entire schedule
   Schedule:

@@ -9,3 +9,14 @@
   </li>
 {{ end }}
 </ul>
+
+<h3> Con el apoyo de </h3>
+
+{{ range $support := .support }}
+  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="{{ .url }}" class="partner-logo partner-link" itemprop="url" target="_blank">
+      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+    </a>
+  </li>
+{{ end }}
+</ul>
