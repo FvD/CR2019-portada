@@ -8,7 +8,7 @@ params:
   # Conference info
   Name: "ConectaR2019"
   Description: "Encuentro Internacional de Usuarios R en Latinoamérica: Conectando Industria, Enseñanza, Ciencia Ciudadana, Ciencia Abierta. 24-25-26 Enero 2019, San José, Costa Rica"
-  Date: "23-25 de Enero, 2019"
+  Date: "24-26 de Enero, 2019"
   #  Price: "Only $100" # If your event is free, just comment this line
   Venue: "UCR"
   Address: "Universidad de Costa Rica, Ciudad universitaria Rodrigo Facio Brenes"
@@ -77,11 +77,11 @@ params:
 
   # The entire schedule
   Schedule:
-    - day: "23"
+    - day: "24"
       name: "registro"
       time: "8h30"
 
-    - day: "23"
+    - day: "24"
       name: "Por Anunciar"
       photo: "/img/speaker.jpg"
       company: "Por Anunciar"
@@ -89,37 +89,37 @@ params:
         title: "Presentaciones"
         description: "Pronto abrimos la convocatoria para recibir resumenes de sus propuestas para charlas y posters"
 
-    - day: "23"
+    - day: "24"
       name: "Cierre"
       time: "18h00"
 
-    - day: "24"
+    - day: "25"
       name: "Abren Puertas"
       time: "8h30"
 
-    - day: "24"
+    - day: "25"
       photo: "/img/speaker.jpg"
       company: "Por Anunciar"
       presentation: 
         title: "Presentaciones y talleres"
         description: "Pronto abrimos la convocatoria para recibir resumenes de sus propuestas para charlas y posters"
 
-    - day: "24"
+    - day: "25"
       name: "Cierre"
       time: "18h00"
 
-    - day: "25"
+    - day: "26"
       name: "Abren puertas"
       time: "8h30"
 
-    - day: "25"
+    - day: "26"
       photo: "/img/speaker.jpg"
       company: "Por Anunciar"
       presentation: 
         title: "Presentaciones y talleres"
         description: "Pronto abrimos la convocatoria para recibir resumenes de sus propuestas para charlas y posters"
 
-    - day: "25"
+    - day: "26"
       name: "Cierre"
       time: "13h00"
 

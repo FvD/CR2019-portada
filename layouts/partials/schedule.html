@@ -2,47 +2,7 @@
 
 <p>Estamos en el proceso de definir la agenda. Inscribete para que te podamos notificar cuando abrimos la convocatoria para presentaciones y presentaciones de poster.</p>
 
-<p><h3><br/>Jueves 23 de Enero 2019</h3></p>
-
-<div class="schedule-tbl">
-  <table>
-    <thead>
-      <tr>
-        <th class="schedule-time">Time</th>
-        <th class="schedule-slot">Slot</th>
-        <th class="schedule-description">Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      {{ range $slot := .schedule }}
-        {{ if and (ne .presentation nil) (eq $slot.day "23") }}
-          <tr>
-            <td class="schedule-time">{{ .presentation.time }}</td>
-            <td class="schedule-slot">
-            {{ with .photo }}
-              <span class="speaker-photo">
-                <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
-              </span>
-            {{ end }}
-
-              {{ .presentation.title }}
-              <span class="speakers-company">{{ .company }}</span>
-            </td>
-            <td class="schedule-description">{{ .presentation.description }}</td>
-          </tr>
-        {{ else if eq $slot.day "23" }}
-          <tr class="schedule-other">
-            <td class="schedule-time">{{ .time }}</td>
-            <td class="schedule-slot">{{ .name }}</td>
-            <td class="schedule-description">-</td>
-          </tr>
-        {{ end }}
-      {{ end }}
-    </tbody>
-  </table>
-</div>
-
-<p><h3><br> Viernes 24 de Enero 2019</h3></p>
+<p><h3><br/>Jueves 24 de Enero 2019</h3></p>
 
 <div class="schedule-tbl">
   <table>
@@ -82,8 +42,7 @@
   </table>
 </div>
 
-  
-<p><h3> <br>Sabado 25 de Enero 2019</h3></p>
+<p><h3><br> Viernes 25 de Enero 2019</h3></p>
 
 <div class="schedule-tbl">
   <table>
@@ -112,6 +71,47 @@
             <td class="schedule-description">{{ .presentation.description }}</td>
           </tr>
         {{ else if eq $slot.day "25" }}
+          <tr class="schedule-other">
+            <td class="schedule-time">{{ .time }}</td>
+            <td class="schedule-slot">{{ .name }}</td>
+            <td class="schedule-description">-</td>
+          </tr>
+        {{ end }}
+      {{ end }}
+    </tbody>
+  </table>
+</div>
+
+  
+<p><h3> <br>Sabado 26 de Enero 2019</h3></p>
+
+<div class="schedule-tbl">
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-time">Time</th>
+        <th class="schedule-slot">Slot</th>
+        <th class="schedule-description">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range $slot := .schedule }}
+        {{ if and (ne .presentation nil) (eq $slot.day "26") }}
+          <tr>
+            <td class="schedule-time">{{ .presentation.time }}</td>
+            <td class="schedule-slot">
+            {{ with .photo }}
+              <span class="speaker-photo">
+                <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
+              </span>
+            {{ end }}
+
+              {{ .presentation.title }}
+              <span class="speakers-company">{{ .company }}</span>
+            </td>
+            <td class="schedule-description">{{ .presentation.description }}</td>
+          </tr>
+        {{ else if eq $slot.day "26" }}
           <tr class="schedule-other">
             <td class="schedule-time">{{ .time }}</td>
             <td class="schedule-slot">{{ .name }}</td>
