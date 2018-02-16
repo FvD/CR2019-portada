@@ -56,7 +56,7 @@ params:
       url: "https://www.ucr.ac.cr"
     - name: "ixpantia"
       logo: "/img/ixpantia.png"
-      url: "https://ixpantia.org"
+      url: "https://www.ixpantia.com"
     - name: "Bioversity International"
       logo: "/img/bioversity-international.png"
       url: "https://www.bioversityinternational.org"
