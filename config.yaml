@@ -45,9 +45,9 @@ params:
 
   # List of Sponsors
   Sponsors:
-    - name: "Su logo aqui"
-      logo: "/img/patrocinadores.png"
-      url: "mailto::info.ConectaR2019@gmail.com" 
+    - name: "R Consortium"
+      logo: "/img/RConsortium.png"
+      url: "https://www.r-consortium.org" 
 
   # List of Partners
   Partners:
