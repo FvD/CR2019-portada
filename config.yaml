@@ -20,20 +20,13 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
-    - location
-    - speakers
-    - schedule
     - sponsors
     - partners
-    #- contact
 
   # Titles which you can translate to other languages
   Titles:
     about: "Conectate!"
-    location: "Lugar"
-    speakers: "Ponentes"
-    schedule: "Agenda"
-    sponsors: "Patrocinan"
+    sponsors: "Patrocinadores"
     partners: "Organizan"
     contact: "Contacto"
 
@@ -41,10 +34,13 @@ params:
   # If you don't want this, just remove the callToAction property.
   CallToAction:
     text: "Inscribite!"
-    link: "http://eepurl.com/djC69r"
+    link: "http://www.conectar2019.ucr.ac.cr/2018/06/25/participantes/"
 
   # List of Sponsors
   Sponsors:
+    - name: "R Studio"
+      logo: "/img/rstudio_logo.png"
+      url: "https://www.rstudio.com" 
     - name: "R Consortium"
       logo: "/img/RConsortium.png"
       url: "https://www.r-consortium.org" 
