@@ -174,7 +174,8 @@ params:
 
     - day: "24"
       time: "16:00-17:30"
-      company: ""
+      photo: "/img/speaker.png"
+      company: "Actividad colectiva"
       presentation: 
         title: "Carteles"
         description: "Presentacion de Posters (coctel + dinamica)"
@@ -245,7 +246,7 @@ params:
         title: "Gabriel Cordero Mora"
         description: "Pronósticos a escala utilizando Alteryx + R - Un caso de integración entre ambas herramientas"
 
-    - day: "24"
+    - day: "25"
       company: ""
       time: "12:30-14:00"
       presentation: 
@@ -279,7 +280,7 @@ params:
     - day: "25"
       time: "16:00-17:45"
       photo: "/img/antonio.png"
-      company: "Universidad Autónoma Metropolitana, México"
+      company: "Universidad Torcuato di Tella y Universidad de Buenos Aires, Argentina"
       presentation: 
         title: "Antonio Vasquez Brust"
         description: "Keynote - Analítica Urbana: Usando R y Open Data para entender nuestras ciudades"
@@ -303,7 +304,7 @@ params:
     - day: "26"
       time: "9:00-11:00"
       photo: "/img/speaker.png"
-      company: "ixpantia"
+      company: "Universidad de la República, Uruguay"
       presentation: 
         title: "Natalia da Silva"
         description: "Taller 2 - Documentos dinámicos, trabajo colaborativo y control de versiones con Rmarkdown y GitHub"
@@ -318,17 +319,17 @@ params:
     - day: "26"
       time: "11:00-13:00"
       photo: "/img/speaker.png"
-      company: "ixpantia"
+      company: "Pontificia Universidad Católica de Chile"
       presentation: 
-        title: "Riva"
+        title: "Riva Quiroga"
         description: "Taller 3 - Minería de texto"
 
     - day: "26"
       time: "11:00-13:00"
       photo: "/img/speaker.png"
-      company: "ixpantia"
+      company: "Universidad de la República, Uruguay"
       presentation: 
-        title: "Ignacio"
+        title: "Ignacio Álvarez-Castro"
         description: "Taller 4  - Introducción al análisis Bayesiano con aplicaciones en STAN"
 
     - day: "26"

@@ -333,7 +333,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 100px 0 100px;
+  padding: 140px 100px;
   text-align: center;
 }
 .logo-name {
@@ -716,7 +716,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  background-image: url('../img/cover.jpg');
+  background-image: url('../img/cover.png');
   background-color: #2b2b2b;
   background-repeat: no-repeat;
   background-position: center bottom;
