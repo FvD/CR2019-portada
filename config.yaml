@@ -6,7 +6,7 @@ GoogleAnalytics: "UA-113328696-1"
 
 params:
   # Conference info
-  Name: "ConectaR2019"
+  Name: "ConectaR 2019"
   Description: "Encuentro Internacional de Usuarios R en Latinoamérica: Conectando Industria, Enseñanza, Ciencia Ciudadana, Ciencia Abierta. 24-25-26 Enero 2019, San José, Costa Rica"
   Date: "24-26 de Enero, 2019"
   #  Price: "Only $100" # If your event is free, just comment this line
@@ -20,21 +20,23 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
+    - schedule
     - sponsors
     - partners
 
   # Titles which you can translate to other languages
   Titles:
-    about: "Conectate!"
+    about: "ConectaR 2019"
+    schedule: "Agenda"
     sponsors: "Patrocinadores"
     partners: "Organizan"
     contact: "Contacto"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: "Inscribite!"
-    link: "http://www.conectar2019.ucr.ac.cr/2018/06/25/participantes/"
+  #  CallToAction:
+  #  text: "Inscribite!"
+  #  link: "http://www.conectar2019.ucr.ac.cr/2018/06/25/participantes/"
 
   # List of Sponsors
   Sponsors:
@@ -74,49 +76,265 @@ params:
   # The entire schedule
   Schedule:
     - day: "24"
-      name: "registro"
-      time: "8h30"
+      name: "Registro"
+      time: "8:30-9:00"
 
     - day: "24"
-      name: "Por Anunciar"
-      photo: "/img/speaker.jpg"
-      company: "Por Anunciar"
+      time: "9:00-9:15"
+      photo: "/img/speaker.png"
+      company: ""
       presentation: 
-        title: "Presentaciones"
-        description: "Pronto abrimos la convocatoria para recibir resumenes de sus propuestas para charlas y posters"
+        title: "Por Anunciar"
+        description: "Apertura del evento ConectaR 2019"
 
     - day: "24"
-      name: "Cierre"
-      time: "18h00"
+      time: "9:15-10:00"
+      photo: "/img/rob.png"
+      company: "UC Davis"
+      presentation: 
+        title: "Robert Hijmans"
+        description: "Keynote : Titulo por anunciar"
+
+    - day: "24"
+      time: "10:00-10:30"
+      photo: "/img/gobierno.jpg"
+      company: "INEC Costa Rica"
+      presentation: 
+        title: "César Gamboa Sanabria"
+        description: "Migración de SPSS a R en el Sector Público"
+
+    - day: "24"
+      company: "Inaguración de la Feria de Empleo"
+      time: "10:30-11:00"
+      presentation: 
+        title: "Café"
+        description: ""
+
+    - day: "24"
+      time: "11:00-11:30"
+      photo: "/img/investigacion.jpg"
+      company: "Universidad de Costa Rica"
+      presentation: 
+        title: "Guillermo Durán Sanabria"
+        description: "Visualización de datos de climáticos a través de herramientas interactivas: experiencias en la Región Chorotega"
+
+    - day: "24"
+      time: "11:30-12:00"
+      photo: "/img/ensenar.jpg"
+      company: "University of Texas at Austin"
+      presentation: 
+        title: "Alfonso Rojas Álvarez"
+        description: "PRETIL: Estimación de probabilidades para el mundial Rusia, 2018"
+
+    - day: "24"
+      time: "12:00-12:30"
+      photo: "/img/industria.jpg"
+      company: "Universidad de Costa Rica"
+      presentation: 
+        title: "Valery Zúñiga Kondrashov"
+        description: "¿Cómo migrar de Excel a R? Un ejercicio práctico de aplicación en la industria - con Carolina Montoya Rivera"
+
+    - day: "24"
+      company: ""
+      time: "12:30-14:00"
+      presentation: 
+        title: "almuerzo"
+        description: ""
+
+    - day: "24"
+      time: "14:00-14:30"
+      photo: "/img/gobierno.jpg"
+      company: "Contraloría General de la República"
+      presentation: 
+        title: "Óscar Centeno Mora"
+        description: "Proyecciones masivas al presupuesto público institucional de Costa Rica"
+
+    - day: "24"
+      time: "14:30-15:00"
+      photo: "/img/investigacion.jpg"
+      company: "Universidad de Costa Rica"
+      presentation: 
+        title: "Luis Barboza Barquero"
+        description: "Uso de R para mapeo de loci de caracteres cuantitativos en papaya - con Andrea Holst, Antonio Bogantes, Adonay Zúñiga,Gabriel Bogantes, Eric Mora"
+
+    - day: "24"
+      time: "15:00-15:30"
+      photo: "/img/industria.jpg"
+      company: "Universidad de Costa Rica"
+      presentation: 
+        title: "Daniel Moreno Conejo"
+        description: "Optimización de slotting en almacenes con GA en R"
+
+    - day: "24"
+      company: ""
+      time: "15:30-16:00"
+      presentation: 
+        title: "Break"
+        description: ""
+
+    - day: "24"
+      time: "16:00-17:30"
+      company: ""
+      presentation: 
+        title: "Carteles"
+        description: "Presentacion de Posters (coctel + dinamica)"
+
+    - day: "24"
+      company: ""
+      time: "18:00"
+      presentation: 
+        title: "Cierre del dia 1"
+        description: ""
 
     - day: "25"
-      name: "Abren Puertas"
-      time: "8h30"
+      name: "Registro"
+      time: "8:30-9:00"
 
     - day: "25"
-      photo: "/img/speaker.jpg"
+      time: "9:00-9:15"
+      photo: "/img/speaker.png"
       company: "Por Anunciar"
       presentation: 
-        title: "Presentaciones y talleres"
-        description: "Pronto abrimos la convocatoria para recibir resumenes de sus propuestas para charlas y posters"
+        title: "Por Anunciar"
+        description: "Apertura del Evento "
+
+    - day: "25"
+      time: "9:15-10:00"
+      photo: "/img/maelle.png"
+      company: "rOpenSci y Locke Data"
+      presentation: 
+        title: "Maëlle Salmon"
+        description: "Keynote - ROpenSci: Mejores paquetes de R, mejor ciencia"
+
+    - day: "25"
+      time: "10:00-10:30"
+      photo: "/img/gobierno.jpg"
+      company: "EmpowerData México"
+      presentation: 
+        title: "Guillermo Arroyo"
+        description: "Evaluación de Impacto para el Taller Saber para Decidir. Propensity Matching Score"
+
+    - day: "25"
+      company: ""
+      time: "10:30-11:00"
+      presentation: 
+        title: "Cafe"
+        description: ""
+
+    - day: "25"
+      time: "11:00-11:30"
+      photo: "/img/ensenar.jpg"
+      company: "Universidad Autónoma Metropolitana Xochimilco, México"
+      presentation: 
+        title: "Noé Becerra Rodríguez"
+        description: "El uso del lenguaje de programación R como herramienta didáctica en la enseñanza de la estadística y la probabilidad"
+
+    - day: "25"
+      time: "11:30-12:00"
+      photo: "/img/investigacion.jpg"
+      company: "Universidad de Costa Rica"
+      presentation: 
+        title: "Nelson Venegas"
+        description: "Usando R para la evaluación espacio-temporal de productos globales de precipitación con estaciones meteorológicas en Costa Rica"
+
+    - day: "25"
+      time: "12:00-12:30"
+      photo: "/img/industria.jpg"
+      company: "Danta Analytics"
+      presentation: 
+        title: "Gabriel Cordero Mora"
+        description: "Pronósticos a escala utilizando Alteryx + R - Un caso de integración entre ambas herramientas"
+
+    - day: "24"
+      company: ""
+      time: "12:30-14:00"
+      presentation: 
+        title: "Almuerzo"
+        description: ""
+
+    - day: "25"
+      time: "14:00-14:30"
+      photo: "/img/ensenar.jpg"
+      company: "Universidad Autónoma Metropolitana, México"
+      presentation: 
+        title: "Isabel Quintas"
+        description: "Las funciones y el cálculo: ¿y por qué no usar R para visualizar interactivamente?"
+
+    - day: "25"
+      time: "14:30-15:30"
+      photo: "/img/industria.jpg"
+      company: "Panel Experto"
+      presentation: 
+        title: "Diego May - Moderador"
+        description: "Conectando iniciativas de innovación con datos en Latinoamérica con R 
+         - Diego May - Moderador (CEO Coinca, co-fundador de Junar, ixpantia y Data Latam), Alicia Salazar Hernández (TEC, coordinadora del Programa de Especialización en Ciencia de Datos), Korina Quirós (Contraloría General de la República, Organizadora de Científicas de Datos), Alvaro Pabón (Gerente de Analitica en Finsocial, organizador del RUG Barranquilla),  Jacob van Etten (Investigador Principal Bioversity International)"
+
+    - day: "25"
+      company: ""
+      time: "15:30-16:00"
+      presentation: 
+        title: "Break"
+        description: ""
+
+    - day: "25"
+      time: "16:00-17:45"
+      photo: "/img/antonio.png"
+      company: "Universidad Autónoma Metropolitana, México"
+      presentation: 
+        title: "Antonio Vasquez Brust"
+        description: "Keynote - Analítica Urbana: Usando R y Open Data para entender nuestras ciudades"
 
     - day: "25"
       name: "Cierre"
-      time: "18h00"
+      time: "17:45-18:00"
 
     - day: "26"
       name: "Abren puertas"
-      time: "8h30"
+      time: "8:30-9:00"
 
     - day: "26"
-      photo: "/img/speaker.jpg"
-      company: "Por Anunciar"
+      time: "9:00-11:00"
+      photo: "/img/frans.jpg"
+      company: "ixpantia"
       presentation: 
-        title: "Presentaciones y talleres"
-        description: "Pronto abrimos la convocatoria para recibir resumenes de sus propuestas para charlas y posters"
+        title: "Frans van Dunné"
+        description: "Taller 1 - Crear API's con código R usando plumber"
 
     - day: "26"
-      name: "Cierre"
-      time: "13h00"
+      time: "9:00-11:00"
+      photo: "/img/speaker.png"
+      company: "ixpantia"
+      presentation: 
+        title: "Natalia da Silva"
+        description: "Taller 2 - Documentos dinámicos, trabajo colaborativo y control de versiones con Rmarkdown y GitHub"
 
+    - day: "26"
+      company: ""
+      time: "10:30-11:00"
+      presentation: 
+        title: "Cafe"
+        description: ""
+
+    - day: "26"
+      time: "11:00-13:00"
+      photo: "/img/speaker.png"
+      company: "ixpantia"
+      presentation: 
+        title: "Riva"
+        description: "Taller 3 - Minería de texto"
+
+    - day: "26"
+      time: "11:00-13:00"
+      photo: "/img/speaker.png"
+      company: "ixpantia"
+      presentation: 
+        title: "Ignacio"
+        description: "Taller 4  - Introducción al análisis Bayesiano con aplicaciones en STAN"
+
+    - day: "26"
+      company: ""
+      time: "12:30-14:00"
+      presentation: 
+        title: "Cierre"
+        description: "Cierre y entrega de certificados"
 
