@@ -58,6 +58,9 @@ params:
     - name: "ThermoFischer"
       logo: "/img/ThermoFisher.png"
       url: "https://www.growthaccelerationpartners.com" 
+    - name: "Alteryx"
+      logo: "/img/alteryx.jpg"
+      url: "https://www.alteryx.com" 
 
   # List of Partners
   Partners:
