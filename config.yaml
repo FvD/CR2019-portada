@@ -40,12 +40,24 @@ params:
 
   # List of Sponsors
   Sponsors:
+    - name: "INCAE"
+      logo: "/img/INCAE.png"
+      url: "https://www.incae.edu" 
+    - name: "HIVOS"
+      logo: "/img/HIVOS.png"
+      url: "https://www.rstudio.com" 
     - name: "R Studio"
       logo: "/img/rstudio_logo.png"
       url: "https://www.rstudio.com" 
     - name: "R Consortium"
       logo: "/img/RConsortium.png"
       url: "https://www.r-consortium.org" 
+    - name: "GAP Growth Acceleration Partners"
+      logo: "/img/GAP.png"
+      url: "https://www.growthaccelerationpartners.com" 
+    - name: "ThermoFischer"
+      logo: "/img/ThermoFisher.png"
+      url: "https://www.growthaccelerationpartners.com" 
 
   # List of Partners
   Partners:
@@ -77,15 +89,15 @@ params:
   Schedule:
     - day: "24"
       name: "Registro"
-      time: "8:30-9:00"
+      time: "8:00-8:30"
 
     - day: "24"
-      time: "9:00-9:15"
+      time: "8:30-9:15"
       photo: "/img/speaker.png"
       company: ""
       presentation: 
-        title: "Por Anunciar"
-        description: "Apertura del evento ConectaR 2019"
+        title: "Apertura"
+        description: "Apertura oficial del evento ConectaR 2019"
 
     - day: "24"
       time: "9:15-10:00"
@@ -93,7 +105,7 @@ params:
       company: "UC Davis"
       presentation: 
         title: "Robert Hijmans"
-        description: "Keynote : Titulo por anunciar"
+        description: "Keynote : La Ciencia de Datos con R"
 
     - day: "24"
       time: "10:00-10:30"
@@ -138,7 +150,7 @@ params:
       company: ""
       time: "12:30-14:00"
       presentation: 
-        title: "almuerzo"
+        title: "Almuerzo"
         description: ""
 
     - day: "24"
@@ -189,15 +201,15 @@ params:
 
     - day: "25"
       name: "Registro"
-      time: "8:30-9:00"
+      time: "8:00-9:00"
 
     - day: "25"
       time: "9:00-9:15"
       photo: "/img/speaker.png"
-      company: "Por Anunciar"
+      company: "UCR"
       presentation: 
-        title: "Por Anunciar"
-        description: "Apertura del Evento "
+        title: "Apertura del día"
+        description: "Apertura del segundo día de ConectaR 2019"
 
     - day: "25"
       time: "9:15-10:00"
@@ -263,7 +275,7 @@ params:
 
     - day: "25"
       time: "14:30-15:30"
-      photo: "/img/industria.jpg"
+      photo: "/img/diego_may.jpg"
       company: "Panel Experto"
       presentation: 
         title: "Diego May - Moderador"
@@ -303,7 +315,7 @@ params:
 
     - day: "26"
       time: "9:00-11:00"
-      photo: "/img/speaker.png"
+      photo: "/img/natalia_silva.jpg"
       company: "Universidad de la República, Uruguay"
       presentation: 
         title: "Natalia da Silva"
@@ -318,7 +330,7 @@ params:
 
     - day: "26"
       time: "11:00-13:00"
-      photo: "/img/speaker.png"
+      photo: "/img/riva_quiroga.jpg"
       company: "Pontificia Universidad Católica de Chile"
       presentation: 
         title: "Riva Quiroga"
@@ -326,7 +338,7 @@ params:
 
     - day: "26"
       time: "11:00-13:00"
-      photo: "/img/speaker.png"
+      photo: "/img/ignacio_alvarez.jpg"
       company: "Universidad de la República, Uruguay"
       presentation: 
         title: "Ignacio Álvarez-Castro"
