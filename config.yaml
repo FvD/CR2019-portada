@@ -113,10 +113,10 @@ params:
     - day: "24"
       time: "10:00-10:30"
       photo: "/img/gobierno.jpg"
-      company: "INEC Costa Rica"
+      company: "CIMPA, UCR"
       presentation: 
-        title: "César Gamboa Sanabria"
-        description: "Migración de SPSS a R en el Sector Público"
+        title: "Maikol Solís"
+        description: "Índices de sensibilidad geométricos basados en construcciones homológicas en variedades."
 
     - day: "24"
       company: "Inaguración de la Feria de Empleo"
