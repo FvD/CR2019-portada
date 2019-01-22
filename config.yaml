@@ -133,7 +133,7 @@ params:
 
     - day: "24"
       time: "11:00-11:30"
-      photo: "/img/investigacion.jpg"
+      photo: "/img/gds506.jpeg"
       company: "Universidad de Costa Rica"
       presentation: 
         title: "Guillermo Durán Sanabria"
@@ -141,7 +141,7 @@ params:
 
     - day: "24"
       time: "11:30-12:00"
-      photo: "/img/ensenar.jpg"
+      photo: "/img/alf10087.jpg"
       company: "University of Texas at Austin"
       presentation: 
         title: "Alfonso Rojas Álvarez"
@@ -164,7 +164,7 @@ params:
 
     - day: "24"
       time: "14:00-14:30"
-      photo: "/img/gobierno.jpg"
+      photo: "/img/oscar_centeno_mora.jpeg"
       company: "Contraloría General de la República"
       presentation: 
         title: "Óscar Centeno Mora"
