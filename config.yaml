@@ -45,7 +45,7 @@ params:
       url: "https://www.incae.edu" 
     - name: "HIVOS"
       logo: "/img/HIVOS.png"
-      url: "https://www.rstudio.com" 
+      url: "https://latin-america.hivos.org/" 
     - name: "R Studio"
       logo: "/img/rstudio_logo.png"
       url: "https://www.rstudio.com" 
@@ -57,10 +57,16 @@ params:
       url: "https://www.growthaccelerationpartners.com" 
     - name: "ThermoFischer"
       logo: "/img/ThermoFisher.png"
-      url: "https://www.growthaccelerationpartners.com" 
+      url: "https://www.thermofisher.com/us/en/home.html" 
     - name: "Alteryx"
       logo: "/img/alteryx.jpg"
       url: "https://www.alteryx.com" 
+    - name: "Trust OEA"
+      logo: "/img/trustoea.jpg"
+      url: "www.trustfortheamericas.org" 
+    - name: "McKinsey"
+      logo: "/img/mckinsey.png"
+      url: "https://mckinsey.co.cr/" 
 
   # List of Partners
   Partners:
@@ -104,11 +110,11 @@ params:
 
     - day: "24"
       time: "9:15-10:00"
-      photo: "/img/rob.png"
-      company: "UC Davis"
+      photo: "/img/edgar_ruiz.jpeg"
+      company: "RStudio"
       presentation: 
-        title: "Robert Hijmans"
-        description: "Keynote : La Ciencia de Datos con R"
+        title: "Edgar Ruiz"
+        description: "Keynote: R y Spark para la Ciencia de Datos"
 
     - day: "24"
       time: "10:00-10:30"
@@ -239,11 +245,11 @@ params:
 
     - day: "25"
       time: "11:00-11:30"
-      photo: "/img/ensenar.jpg"
-      company: "Universidad Autónoma Metropolitana Xochimilco, México"
+      photo: "/img/rob.png"
+      company: "UC Davis"
       presentation: 
-        title: "Noé Becerra Rodríguez"
-        description: "El uso del lenguaje de programación R como herramienta didáctica en la enseñanza de la estadística y la probabilidad"
+        title: "Robert Hijmans"
+        description: "Keynote : La Ciencia de Datos con R"
 
     - day: "25"
       time: "11:30-12:00"
